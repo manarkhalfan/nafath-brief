@@ -27,6 +27,8 @@ Resource:NIST SP 800-61 Rev.2:computer security incident handling guide-https://
 A star schema has a fact table at the center of the schema, which is directly linked to dimension tables like date and region. A snowflake schema decomposes dimensions into other related tables, it avoids the redundancy, but it will require more joins. A star schema is typically better for service-usage reporting, on the daily basis, due to the fact that it has a simpler schema that easier allows for analytical queries and reporting. Despite these, the operator should take into account the amount of data and reporting performance.
 Resource:what is a schema? a complete guide to data modeling-https://www.snowflake.com/en/fundamentals/star-schema/.
 
-Misconception in My Track
+##Misconception in My Track
+One of the most prevalent misunderstandings about 5G network slicing is that each slice should have its own standalone physical network infrastructure. In fact, network slicing enables the formation of multiple virtual networks running on the same physical network and serving different service needs. For instance, an emergency response slice can be designed to be allowed to use critical communications without having to build an entirely new physical network. But, slicing doesn't ensure continuous service—appropriate resource management, monitoring and security are required.
 
-Open Question
+##Open Question
+How can predictive AI technologies seamlessly integrate with network slicing infrastructures to achieve self-allocation of resources in smart cities during major disasters without any human intervention?
