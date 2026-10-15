@@ -15,11 +15,17 @@ Resource:introducation to machine lerning with python-https://scikit-learn.org/s
 During an emergency, when a mobile application used by emergency response staff is no longer connected, it should be able to continue to function with a responsive user interface and store locally offline actions that occurred during the emergency in secure local storage. When network access is restored, a comprehensive data synchronization feature, which uses background queues, incremental data traffic, and conflict resolution algorithms, transfers all the information collected while offline, and seamlessly updates it on the central server without loss.
 Resource:Apple developer docmention: corec data syncing-https://developer.apple.com/documentation/coredata.
 
-Networking
+##Networking
+The software-defined networking (SDN) and network functions virtualization (NFV) technologies that underlie 5G network slicing enable the virtualization of logical networks that can be isolated from one another and operate on a common physical infrastructure. In emergency situations, the dedicated slices dynamically allocate guaranteed bandwidth and ultra-low latency only for first responders.This logical separation between public traffic and critical communications prevents severe public traffic congestion from impacting critical communications, ensuring no packet loss or traffic disruption to critical communications.
+Resource:IBM think:what is 5G network slicing?-https://www.ibm.com/think/topics/5g-network-slicing.
 
-Cybersecurity
+##Cybersecurity
+The incident response process has various phases, and the first phase is the preparation phase, where an organization aims to reduce the number of potential incidents by choosing and installing a series of security measures as part of a risk assessment. This is followed by the detection and analysis phase; since incidents can occur in countless ways, organizations must be generally prepared to handle any type of incident. The next phases are containment, threat eradication and recovery, though containment is essential to stop an incident from spreading, otherwise resources might be consumed or the damage could be extended. Finally, there are post-incident activities; all incident response teams need to evolve and adapt to meet the changing threats.
+Resource:NIST SP 800-61 Rev.2:computer security incident handling guide-https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf
 
-Data
+##Data
+A star schema has a fact table at the center of the schema, which is directly linked to dimension tables like date and region. A snowflake schema decomposes dimensions into other related tables, it avoids the redundancy, but it will require more joins. A star schema is typically better for service-usage reporting, on the daily basis, due to the fact that it has a simpler schema that easier allows for analytical queries and reporting. Despite these, the operator should take into account the amount of data and reporting performance.
+Resource:what is a schema? a complete guide to data modeling-https://www.snowflake.com/en/fundamentals/star-schema/.
 
 Misconception in My Track
 
